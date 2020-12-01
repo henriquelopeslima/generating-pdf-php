@@ -1,0 +1,28 @@
+{
+  "name": "henriquelopeslima/test",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Henrique Lopes Lima",
+      "email": "henriquelopeslima.hll@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "require": {
+    "coffeecode/datalayer": "1.1.*",
+    "dompdf/dompdf": "0.8.*"
+  }
+}
